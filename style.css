@@ -1,0 +1,252 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#nav{
+    display:flex;
+    align-items: center;
+    /* background-color: #272527db; */
+    background-color: black;
+    height: 70px;
+    justify-content: space-between;
+   }
+   #nav .ul{
+       display:flex;
+       align-items: center;
+   }
+   .logo{
+    font-size: 20px;
+    color: white;
+    font-family: serif;
+    border-radius: 3px;
+    border: 3px solid white;
+}
+   #nav .ul li{
+       list-style: none;
+       padding: 15px;
+   }
+   #nav .ul li a{
+       text-decoration: none;   
+       font-size: 21px;
+       color: white;
+   }
+   #nav .ul li a:hover{
+       color: red;   
+   }
+   #idinput{
+    margin-left: 503px;
+    margin-right: 12px;
+    border-radius: 7px;
+    border-style: double;
+    height: 17px;
+}
+.btnclass{
+    border-style: double;
+    cursor: pointer;
+}
+.btnclass:hover{
+  color: red;
+}
+
+/* ---------------------- */
+#heading{
+    text-align: center;
+    padding: 13px;
+}
+section{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* height: 503px; */
+    margin: 11px;
+    
+}
+.container{
+    border: 2px solid white;
+    width: 600px;
+    padding: 33px;
+    margin-bottom: 44px;
+    background-color: black;
+    color: white;
+    border-radius: 22px;
+    box-shadow: 2px 2px 4px grey;
+}
+.urldiv{
+    /* border: 2px solid red; */
+    /* height: 38px; */
+    /* width: 313px; */
+    display: flex;
+    align-items: center;
+    /* font-size: 23px; */
+    padding: 4px;
+}
+#url{
+    width: 290px;
+    height: 23px;
+    margin-left: 12px;
+    /* border-color: powderblue; */
+}
+#url:hover{
+    border-color: red;
+}
+.request{
+    display: inline-flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 315px;
+    padding: 4px;
+    margin: 24px 0px;
+
+    
+}
+.requestType{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    width: 133px;
+    margin-left: 18px;
+}
+.content{
+    display: inline-flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 315px;
+    padding: 4px;
+    margin: 24px 0px;
+    
+}
+#get{
+    margin-left: 31px;
+}
+#post{
+    margin-left: 26px;
+}
+
+#json{
+    margin-left: 31px;
+}
+#custom{
+    margin-left: 9px;
+}
+.dataType{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    width: 133px;
+    margin-left: 20px;
+    padding: 4px;
+
+}
+.field{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    padding: 4px;
+
+
+}
+
+
+.parameterfield{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    padding: 7px;
+   
+}
+
+ .input {
+    /* background-color: black; */
+    width: 173px;
+    height: 22px;
+    /* border-color: powderblue; */
+    margin-left: 6px;
+}
+.input:hover{
+    border-color: red;
+}
+#parameter{
+  margin: 3px;
+}
+#plus,.minus{
+    margin-left: 11px;
+    width: 42px;
+    height: 21px;
+    background-color: #a2a2c3;
+    border-style: none;
+}
+
+#plus:hover , .minus:hover{
+    width: 40px;
+    height: 19px;
+    background-color: white;
+    color: red;
+}
+
+
+.json{
+    /* border: 2px solid red; */
+    display: flex;
+}
+#jsondata{
+    margin: 8px;
+    /* background-color: black; */
+    /* color: white; */
+    padding: 4px;
+
+}
+.response{
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+
+}
+ #responsedata{
+    /* margin: 8px; */
+    background-color: black;
+    color: white;
+
+} 
+
+.submitdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+#submit{
+    /* margin-left: 26px; */
+    margin-right: 48px;
+    width: 77px;
+    height: 24px;
+    border-radius: 8px;
+    border-style: double;
+    background-color: #a2a2c3;
+}
+
+#submit:hover{
+    /* width: 75px; */
+    /* height: 22px; */
+    background-color: white;
+    color: red;
+}
+
+pre,code{
+    /* background-color: white; */
+    /* color: red; */
+}
+/* ------------------------ */
+footer{
+    /* color: cadetblue; */
+    color: white;
+    /* background-color: #454445; */
+    background-color: black;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
